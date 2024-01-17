@@ -9,15 +9,14 @@ public class Main {
 
             Scanner scanner = new Scanner(System.in);
 
-            System.out.println("Input the length of the secret code:");
+            System.out.println("Enter the length of the secret code:");
             int userLength = scanner.nextInt();
 
-            System.out.println("Input the number of possible symbols in the code:");
+            System.out.println("Enter the quantity of symbols you want to play with:");
             int range = scanner.nextInt();
 
             String randomNumber = generateRandomNumber(userLength , range);
-            System.out.println("Okay, let's start a game!");
-            System.out.println(randomNumber);
+            System.out.println("Okay, let's start the game!");
             game(randomNumber);
 
         }catch (Exception e){
