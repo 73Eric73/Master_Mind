@@ -1,1 +1,4 @@
-# Master_Mind
+Master  Mind 🎲
+===============
+A basic master mind game!
+-------------------------
